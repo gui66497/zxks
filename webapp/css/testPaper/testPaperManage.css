@@ -1,0 +1,139 @@
+.btn{
+    font-family: 微软雅黑;
+}
+.showPaperBtn{
+    width: 20px;
+    height: 20px;
+    border: 0;
+    background: url("../../images/show.png");
+}
+.showPaperBtn:hover{
+    background: url("../../images/show_hover.png");
+}
+.editPaperBtn{
+    width: 20px;
+    height: 20px;
+    border: 0;
+    background: url("../../images/edit.png");
+}
+.editPaperBtn:hover{
+    background: url("../../images/edit_hover.png");
+}
+.deletePaperBtn{
+    width: 20px;
+    height: 20px;
+    border: 0;
+    background: url("../../images/delete.png");
+}
+.deletePaperBtn:hover{
+    background: url("../../images/delete_hover.png");
+}
+
+.fontSpan{
+    font-family: 微软雅黑;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #333333;
+    margin-left: 2px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    float: left;
+}
+.node-selected,.node-treeview{
+    width:99%;
+    height: 40px;
+    border-bottom: 1px solid #f5f7f8;
+    line-height: 40px;
+    display: block;
+}
+.list-group{
+    margin-left: 0px;
+    font-family: 微软雅黑;
+    font-size: 14px;
+}
+.addItemBtn{
+    width: 100px;
+    height: 34px;
+    background-color: #4dbd73;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: #fff;
+    border: 0px;
+    border-radius: 4px;
+}
+.addItemBtn:hover{
+    background-color: #46ab68;
+}
+#searchName {
+    border-radius: 4px;
+    padding-left: 30px;
+    background: url("../../images/search.png") no-repeat 10px 10px;
+    width: 200px;
+    height: 34px;
+    float: right;
+    margin-bottom: 0px;
+    /*margin-right: -16px;*/
+}
+.itemBankDiv{
+    border: 1px solid #3bc0bf;
+    height: 110px;
+    width: 22%;
+    border-radius: 4px;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: #fff;
+    margin-right: 35px;
+    margin-bottom: 20px;
+    float:left;
+}
+.itemBankHeader{
+    height: 60%;background-color: #3bc0bf;padding-left: 15px
+}
+.itemBankTitle{
+    padding-top: 15px;
+    font-size: 16px;
+}
+.itemBankTitle a{
+    color: #fff;
+}
+.dropdown-menu li:hover{
+    background-color: #3bc0bf;
+}
+.cancel{
+    width:70px;
+    height:34px;
+    background-color: #bec3c7;
+    border:0;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 微软雅黑;
+}
+.cancel:hover{
+    background-color: #b0b5b9;
+}
+.closeTable:hover{
+    background: url("../../images/close_hover.png");
+}
+tr.odd{
+    background-color: #f1f2f2 !important;
+}
+tr.even{
+    background-color: #ffffff !important;
+}
+tr.odd>.sorting_1{
+    background-color: #f1f2f2 !important;
+}
+tr.even>.sorting_1{
+    background-color: #ffffff !important;
+}
+li>.expand-icon{
+    margin-left: 10px;
+}
+.columnLeft{
+    text-overflow: ellipsis;
+   /* white-space: nowrap;*/
+    overflow: hidden;
+    /*width: 20%;*/
+    word-break: break-all;
+}

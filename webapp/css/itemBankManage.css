@@ -1,0 +1,146 @@
+
+.fontSpan{
+    font-family: 微软雅黑;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #333333;
+    margin-left: 2px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.node-selected,.node-treeview{
+    width:99%;
+    height: 40px;
+    border-bottom: 1px solid #f5f7f8;
+    line-height: 40px;
+    display: block;
+}
+.list-group{
+    margin-left: 0px;
+    font-family: 微软雅黑;
+    font-size: 14px;
+}
+.addItemBtn{
+    width: 100px;
+    height: 34px;
+    background-color: #4dbd73;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: #fff;
+    border: 0px;
+    border-radius: 4px;
+}
+.addItemBtn:hover{
+    background-color: #46ab68;
+}
+#searchName {
+    border-radius: 4px;
+    padding-left: 10px;
+    width: 200px;
+    height: 34px;
+    float: right;
+    margin-bottom: 0px;
+    /*margin-right: -16px;*/
+}
+.itemBankDiv{
+    border: 1px solid #3bc0bf;
+    height: 120px;
+    width: 288px;
+    border-radius: 4px;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: #fff;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    float:left;
+}
+.itemBankHeader{
+    height: 60%;background-color: #3bc0bf;padding-left: 15px
+}
+.itemBankTitle{
+    padding-top: 15px;
+    font-size: 16px;
+    width: 86%;
+}
+.itemBankTitle a{
+    color: #fff;
+}
+.dropdown-menu li:hover{
+    background-color: #3bc0bf;
+}
+.cancel{
+    width:70px;
+    height:34px;
+    background-color: #bec3c7;
+    border:0;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 微软雅黑;
+}
+.cancel:hover{
+    background-color: #b0b5b9;
+}
+.modal-header{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    background-color: #1c2b36;
+    height: 50px;
+    line-height: 50px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+.moda-label{
+    font-family: 微软雅黑;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    width: 70px;
+    text-align: right;
+    margin: 0;
+}
+.modal.fade,.modal.fade.in{
+    width: 480px;
+}
+.modal.fade.dialog,.modal.fade.dialog.in{
+    width: 280px;
+}
+.optionA{
+    float: right;
+    font-size:20px;
+    font-weight:bold;
+    color:#bec3c7;
+    margin-right: 30px;
+    margin-top: -26px;
+    text-decoration: none;
+}
+.optionA:hover{
+    color:#b0b5b9;
+}
+.closeTable{
+    background: url("../images/close.png");
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin-top: 0px;
+    margin-right: -16px;
+    opacity:1;
+    border: 0;
+}
+.closeTable:hover{
+    background: url("../images/close_hover.png");
+}
+.treeview li {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.treeview ul{
+    max-height: 90%;
+}

@@ -1,0 +1,231 @@
+body{
+    background-color:#f1f4f8 ;
+}
+/*添加题目按钮*/
+.itemBtn{
+    font-family: "微软雅黑";
+    width:70px;
+    height:34px;
+    background: #4dbd73;
+    border-radius: 4px;
+    border: 0;
+    color:#ffffff;
+    margin-left: 10px;
+}
+.itemBtn:hover{
+   background-color:  #46ab68;
+}
+
+.showItemBtn{
+    width: 20px;
+    height: 20px;
+    border: 0;
+    background: url("../images/show.png");
+}
+.showItemBtn:hover{
+    background: url("../images/show_hover.png");
+}
+.editItemBtn{
+    width: 20px;
+    height: 20px;
+    border: 0;
+    background: url("../images/edit.png");
+}
+.editItemBtn:hover{
+    background: url("../images/edit_hover.png");
+}
+.deleteItemBtn{
+    width: 20px;
+    height: 20px;
+    border: 0;
+    background: url("../images/delete.png");
+}
+.deleteItemBtn:hover{
+    background: url("../images/delete_hover.png");
+}
+
+label {
+    width: 200px;
+    position: relative;
+    color: #333333;
+    font-weight: bold;
+    font-family: '微软雅黑';
+    font-weight: bold;
+    font-size: 14px;
+    height: 30px;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: left;
+}
+input[type="radio"]{
+    width: 90px;
+    position: relative;
+    color: #333333;
+    font-weight: bold;
+    font-size: 14px;
+    height: 30px;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+.anotherItem{
+    width:520px;
+    height:34px;
+    margin-left: 94px;
+    margin-top: 10px;
+}
+.selectItem{
+    width:150px;
+    height:34px
+}
+.itemTitle,.itemCode{
+    width:540px;
+    height: 90px;
+    border:1px solid #dddddd;
+    border-radius: 4px;
+    max-width: 540px;
+    max-height: 100px;
+}
+#itemAddModal{
+    width:700px;
+    height:750px;
+
+}
+#itemShowModal{
+    width:700px;
+    height:750px;
+
+}
+.inputItem{
+    width:498px;
+    height:34px;
+    border:1px solid #dddddd;
+    border-radius: 4px;
+}
+.inputItem[placeholder]{
+    padding-left: 20px;
+}
+.explainArea{
+    margin-left: 90px;
+    width:540px;
+    height: 90px;
+    border:1px solid #dddddd;
+    border-radius: 4px;
+    max-width: 540px;
+    max-height: 90px;
+    margin-left: 70px;
+    margin-bottom: 0px;
+}
+.shortAnswer{
+    margin-left: 90px;
+    width:540px;
+    height: 90px;
+    border:1px solid #dddddd;
+    border-radius: 4px;
+    max-width: 540px;
+    max-height: 90px;
+    margin-left: 70px;
+    margin-bottom: 0px;
+}
+.btCancle{
+    color:#ffffff;
+    width:70px;
+    height:34px;
+    border-radius: 4px;
+    border:0;
+    background-color: #b0b5b9;
+    margin-right: 5px;
+}
+.btCancle:hover{
+    background-color: #b0b5b9;
+}
+.btEnabled{
+    color:#ffffff;
+    width:70px;
+    height:34px;
+    border-radius: 4px;
+    border:0;
+    background-color: #4dbd73;
+}
+.btEnabled:hover{
+    border-color:#46ab68;
+    background-color: #46ab68
+}
+#searchValue{
+    margin-left: -140px;
+}
+.itemListTd{
+    text-align: center;
+}
+.itemListTdLeft{
+    text-align: left;
+}
+#table_id{
+    /*border: 1px;*/
+}
+.optionA{
+    float: right;
+    font-size:20px;
+    font-weight:bold;
+    color:#bec3c7;
+    margin-right: 18px;
+    margin-top: -26px;
+    text-decoration: none;
+}
+.optionA:hover{
+    color:#b0b5b9;
+}
+#addOptionBtn{
+    color: #fff;
+    font-family: 微软雅黑;
+    margin-right: 15px;
+    border-color: #4dbd73;
+    background-color: #4dbd73;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+}
+.closeModal{
+    border-radius:0px;
+    box-shadow: none;
+    padding: 0;
+    float: right;
+    background: url("../images/close.png");
+    width: 50px;
+    height: 50px;
+    margin-top: -9px;
+    margin-right: -15px;
+    border: 0;
+
+}
+.closeModal:hover{
+    background: url("../images/close_hover.png");
+}
+.alert{
+    width: 472px;
+    display: block;
+    margin-left: 70px;
+    color: red;
+}
+.closeTable{
+    background: url("../images/close.png");
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin-top: 0px;
+    margin-right: -16px;
+    opacity:1;
+    border: 0;
+}
+.closeTable:hover{
+    background: url("../images/close_hover.png");
+}

@@ -1,0 +1,158 @@
+/*主体CSS*/
+body{
+    background: url("/zxks/images/bg.png");
+    font-family: "微软雅黑";
+    background-size:cover;
+    background-repeat:no-repeat;
+
+}
+
+/*登录框CSS*/
+.login-form {
+    box-shadow: 0px 3px 7px 0px rgba(32, 97, 99, 0.4);
+    margin: 11px 40.5% 0 ;
+    background: #ffffff;
+    position: relative;
+    width: 320px;
+    height:300px;
+    /*margin: 150px auto 0 auto;*/
+    text-align: center;
+    border-radius: 4px;
+
+}
+
+/*logo的CSS*/
+.logo{
+    margin: 230px 40.2% 0 ;
+}
+
+/*输入框CSS*/
+input[type="text"][id="userName"]  {
+    padding-left: 35px;
+    border:1px solid #dddddd;
+    width:  217px;
+    height:38px;
+    color:  #999999;
+    font-size: 16px;
+    font-family:"微软雅黑";
+    background: url(/zxks/images/user.png) no-repeat 10px 10px ;
+    margin-top: 24px;
+    border-radius: 4px;
+}
+
+input[type="text"][id="imageCode"]{
+    padding-left: 10px;
+    border:1px solid #dddddd;
+    color:  #999999;
+    font-family:"微软雅黑";
+    border-radius: 4px;
+    font-size: 16px;
+    width: 90px;
+    text-align: left;
+    height:34px;
+    /*position: absolute;*/
+    margin: 20px 0px 0px 20px;
+}
+
+input[type="password"]{
+    border:1px solid #dddddd;
+    padding-left: 35px;
+    width:  217px;
+    height:38px;
+    color: #999999;
+    font-size: 18px;
+    font-family:	"微软雅黑";
+    outline: none;
+    background: url(/zxks/images/password.png) no-repeat 10px 10px;
+    font-weight: 100;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+input[type="submit"]{
+    height:38px;
+    font-size: 14px;
+    font-family:"微软雅黑";
+    color: #fff;
+    border: none;
+    background: #3bc0bf;
+    width: 256px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #35adab;
+    border-radius: 4px;
+
+
+}
+
+input[type="text"][placeholder],input[type="password"][placeholder]{
+    font-family: "微软雅黑";
+    font-size: 14px;
+
+}
+
+/*版权CSS*/
+.copy-rights{
+    text-align: center;
+    margin-top: 12px;
+}
+.copy-rights p{
+    font-family: "微软雅黑";
+    font-size: 12px;
+    color: #f5f5f5;
+    margin-top: 12px;
+}
+
+/*注册CSS*/
+.register_text{
+    font-family: "微软雅黑";
+    font-size: 12px;
+    margin-top: 8px;
+    color: #777777;
+}
+
+.register_text a{
+    color:#53abb5;
+    text-decoration: none;
+}
+
+/*看不清，换一张CSS*/
+.codeChange{
+    margin-top: 26px;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    margin-right: 30px;
+    text-align: right;
+
+}
+.codeChange a{
+    color:#53abb5;
+    text-decoration: none;
+}
+
+/*验证码图形CSS*/
+#imagePre{
+    margin-top: 20px;
+    float: right;
+    margin-right: 30px;
+}
+.codeSpan{
+    height: 20px;
+    line-height: 20px;
+    margin-right: 75px;
+    color: #ff6c60;
+    font-size: 12px;
+    border:1px black;
+}
+.warningDiv{
+
+    padding-left: 10px;
+    position:absolute;
+    float: left;
+    margin-left: 30px;
+    margin-top: 25px;
+    /*background-color: #fcf8e3;*/
+}

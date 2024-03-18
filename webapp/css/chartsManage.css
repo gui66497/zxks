@@ -1,0 +1,16 @@
+.sure{
+    width:70px;
+    height: 34px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: #4dbd73;
+    border: 0;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 微软雅黑;
+}
+.sure:hover{
+    border-color:#46ab68;
+    background-color: #46ab68
+}
